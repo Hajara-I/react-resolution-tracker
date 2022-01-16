@@ -2,8 +2,10 @@
 
 function AddButton(props) {
 	return (
-		<div className="header">
-			<button onClick={props.onClick}>Open Popup and Add New Resolution</button>
+		<div className="add-btn-div">
+			<button className="add-btn" onClick={props.onClick}>
+				Add New Resolution
+			</button>
 		</div>
 	);
 }

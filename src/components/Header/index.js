@@ -1,7 +1,8 @@
 function Header() {
 	return (
 		<div className="header">
-			<h1>Hajara's 2022 Resolution Tracker</h1>
+			<h3>Hi Hajara,</h3>
+			<h5>Let's set some goals for 2022!</h5>
 		</div>
 	);
 }
