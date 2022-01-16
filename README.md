@@ -1,8 +1,1 @@
-### SET UP
-
-1. Set up a new react project -> npx create-react-app resolution-tracker
-2. Connect to github via 'push an exisiting repo from the command line"
-
-#### FILES
-
-3. Create component folder for react components
+This project is a refactored version of my bootcamp Christmas Project which was made in December 2021. This project is currently being refactored into a react version using functional components, hooks and states. 
