@@ -4,15 +4,11 @@ import Header from "../Header";
 import AddButton from "../AddButton";
 import InputFormPopup from "../InputFormPopup";
 import { useState } from "react";
-//import sampleResolution from "../resolution-template";
-//import Comment from "../Comment";
 import Resolution from "../Resolution";
 
 function App() {
-	// set popup inputForm state
 	const [inputPopup, setInputPopup] = useState(false);
 	const [resolutions, setResolutions] = useState([]);
-	//const [resolutionArr, setResolutionArr] = useState([]);
 
 	function triggerFormPopup() {
 		setInputPopup(true);
@@ -21,14 +17,6 @@ function App() {
 	function closeFormPopUp() {
 		setInputPopup(false);
 	}
-
-	// function addToArr() {
-	// 	const newRes = {
-	// 		title: document.querySelector(".inputA").value,
-	// 		text: document.querySelector(".inputB").value,
-	// 	};
-	// 	setResolutionArr([...resolutionArr, newRes]);
-	// }
 
 	function addNewResolution() {
 		const newResolution = {
@@ -66,16 +54,6 @@ function App() {
 					);
 				})}
 			</div>
-
-			{/* <div>
-				<input className="inputA" />
-				<input className="inputB" />
-				<button onClick={addToArr}>send res!</button>
-				<h1>Resolutions goes here!</h1>
-				{resolutionArr.map(function (item) {
-					return <Comment title={item.title} text={item.text} />;
-				})}
-			</div> */}
 		</div>
 	);
 }
